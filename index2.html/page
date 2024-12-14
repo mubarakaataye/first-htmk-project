@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Beautiful Page</title>
+    <style>
+        /* تنظیمات کلی صفحه */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+        }
+
+        /* هدر اصلی */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background: rgba(0, 0, 0, 0.3);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            color: #ffd700;
+        }
+
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1rem;
+        }
+
+        header nav a:hover {
+            color: #ffd700;
+        }
+
+        /* بخش درباره ما */
+        .about-section {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .about-section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .about-section p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* کارت‌ها */
+        .cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 40px 20px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            width: 300px;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .card h3 {
+            margin: 10px 0;
+            font-size: 1.5rem;
+        }
+
+        .card p {
+            font-size: 1rem;
+            color: #f0f0f0;
+        }
+
+        /* فوتر */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+
+        footer a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- هدر -->
+    <header>
+        <h1>My Beautiful Website</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- بخش درباره ما -->
+    <section class="about-section" id="about">
+        <h2>About Us</h2>
+        <p>Welcome to our beautiful website! We aim to provide high-quality content and services to make your experience unforgettable. Explore our features and see what we offer.</p>
+    </section>
+
+    <!-- کارت‌های خدمات -->
+    <section class="cards" id="services">
+        <div class="card">
+            <img src="https://via.placeholder.com/100" alt="Service 1">
+            <h3>Service 1</h3>
+            <p>High-quality service tailored to meet your needs.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/100" alt="Service 2">
+            <h3>Service 2</h3>
+            <p>Innovative solutions to your challenges.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/100" alt="Service 3">
+            <h3>Service 3</h3>
+            <p>Professional support whenever you need it.</p>
+        </div>
+    </section>
+
+    <!-- فوتر -->
+    <footer>
+        <p>&copy; 2024 Beautiful Website. All Rights Reserved. | <a href="#contact">Contact Us</a></p>
+    </footer>
+</body>
+</html>
